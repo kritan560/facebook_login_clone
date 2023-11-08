@@ -8,7 +8,10 @@
         <title>Facebook - log in or sign up</title>
     </head>
 
-    <body class="font-Roboto bg-[#f0f2f5] h-screen min-w-fit" id="id_body">
+    <body
+        class="font-Roboto bg-[#f0f2f5] h-screen min-w-fit dark:bg-slate-800"
+        id="id_body"
+    >
         <div
             class="flex flex-col items-center justify-center mdlg:justify-evenly mdlg:flex-row mdlg:pt-24 pt-2"
         >
@@ -26,7 +29,7 @@
 
                 <!-- message below logo start -->
                 <p
-                    class="font-medium text-2xl -mt-1 mdlg:ml-8 mdlg:font-normal mdlg:text-[28px] text-[#1C1E21]"
+                    class="font-medium text-2xl -mt-1 mdlg:ml-8 mdlg:font-normal mdlg:text-[28px] text-[#1C1E21] dark:text-[#dadada]"
                 >
                     Connect with friends and the world
                     <span class="block text-center leading-6 mdlg:text-start">
@@ -39,15 +42,15 @@
             <!-- input and buttons start -->
             <div class="mdlg:flex mdlg:-ml-16 flex-col mdlg:mr-14">
                 <div
-                    class="flex flex-col items-center bg-white w-[396px] rounded-md shadow-lg mt-10"
+                    class="flex flex-col items-center bg-white w-[396px] rounded-md shadow-lg mt-10 dark:bg-gray-700"
                 >
                     <input
-                        class="focus:border-[#1b74e4] focus:outline-none focus:shadow-sm focus:ring-1 focus:ring-[#1b75e43a] placeholder:text-zinc-400 placeholder:text-[17px] w-[363px] h-[51px] border mt-4 rounded-md p-4 bg-white focus:caret-[#1b74e4]"
+                        class="focus:border-[#1b74e4] focus:outline-none focus:shadow-sm focus:ring-1 focus:ring-[#1b75e43a] placeholder:text-zinc-400 placeholder:text-[17px] w-[363px] h-[51px] border mt-4 rounded-md p-4 bg-white focus:caret-[#1b74e4] dark:bg-slate-700"
                         type="text"
                         placeholder="Email or phone number"
                     />
                     <input
-                        class="focus:border-[#1b74e4] focus:outline-none focus:shadow-sm focus:ring-1 focus:ring-[#1b75e43a] placeholder:text-zinc-400 placeholder:text-[17px] w-[363px] p-4 h-[51px] border mt-[13px] rounded-md bg-white focus:caret-[#1b74e4]"
+                        class="focus:border-[#1b74e4] focus:outline-none focus:shadow-sm focus:ring-1 focus:ring-[#1b75e43a] placeholder:text-zinc-400 placeholder:text-[17px] w-[363px] p-4 h-[51px] border mt-[13px] rounded-md bg-white focus:caret-[#1b74e4] dark:bg-slate-700"
                         type="text"
                         placeholder="Password"
                     />
@@ -59,7 +62,7 @@
                     </button>
 
                     <p
-                        class="text-[#1877f2] hover:cursor-pointer hover:underline my-4 text-sm"
+                        class="text-[#1877f2] hover:cursor-pointer hover:underline my-4 text-sm dark:text-[#59a1ff]"
                     >
                         Forget password?
                     </p>
@@ -74,8 +77,9 @@
                         Create new Account
                     </button>
                 </div>
-                <p class="mt-7 text-sm text-center">
-                    <span class="font-bold text-zinc-800 hover:underline"
+                <p class="mt-7 text-sm text-center dark:text-white">
+                    <span
+                        class="font-bold text-zinc-800 hover:underline dark:text-white"
                         >Create a Page</span
                     >
                     for a celebrity, brand or business.
@@ -83,7 +87,5 @@
                 <!-- input and buttons end -->
             </div>
         </div>
-
-        <script src="./index.js"></script>
     </body>
 </html>
