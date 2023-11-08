@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components {
+    .input_box {
+        @apply focus:border-[#1b74e4] focus:outline-none px-4 h-[50px] my-2 border rounded-md border-gray-300 placeholder:text-lg placeholder:font-medium tracking-tight placeholder:text-neutral-400 focus:shadow-sm focus:ring-1 focus:ring-[#1b75e43a];
+    }
+} */
+
+body {
+    height: 100%;
+}
